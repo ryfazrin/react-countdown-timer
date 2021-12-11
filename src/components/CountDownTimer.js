@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 
 const CountDownTimer = ({ hoursMinSecs }) => {
   const { hours = 0, minutes = 0, seconds = 60 } = hoursMinSecs;
