@@ -1,11 +1,13 @@
-import './App.css';
+import "./App.css";
+import CountDownTimer from "./components/CountDownTimer";
 
 function App() {
+
+  const hoursMinSecs = { hours: 0, minutes: 30, seconds: 0 };
+  
   return (
     <div className="App">
-      <div>
-        <p>00:00:00</p>
-      </div>
+      <CountDownTimer hoursMinSecs={hoursMinSecs} />
     </div>
   );
 }
